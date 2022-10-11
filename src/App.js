@@ -23,8 +23,10 @@ export default function App() {
           }
         />
         <button
+          disabled={newTodo.title === ""}
           onClick={() => {
             setTodos((todos) => [...todos, newTodo]);
+            setNewTodo({ title: "", status: "InComplete" });
           }}
         >
           Add
