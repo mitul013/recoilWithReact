@@ -15,7 +15,7 @@
     "uuidv4": "6.2.13"
   },
   "devDependencies": {
-    "@babel/runtime": "7.13.8",
+    "@babel/runtime": "7.13.8"
   },
   "scripts": {
     "start": "react-scripts start",
